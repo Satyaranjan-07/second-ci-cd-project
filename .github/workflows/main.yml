@@ -31,3 +31,4 @@ jobs:
 
       - name: Push to DockerHub
         run: docker push ${{ secrets.DOCKER_USERNAME }}/nodejs-demo-app
+        # trigger build
